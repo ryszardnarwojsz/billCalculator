@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/billCalculator.iml" filepath="$PROJECT_DIR$/.idea/billCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/billsCalculator/billsCalculator.iml" filepath="$PROJECT_DIR$/billsCalculator/billsCalculator.iml" />
+    </modules>
+  </component>
+</project>
