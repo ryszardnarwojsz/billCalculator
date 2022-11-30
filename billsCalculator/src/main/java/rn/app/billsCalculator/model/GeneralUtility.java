@@ -1,12 +1,11 @@
 package rn.app.billsCalculator.model;
 
 import rn.app.billsCalculator.model.enums.GeneralUtilityType;
+import rn.app.billsCalculator.model.enums.MeterFrequency;
 
-import java.time.LocalDate;
+public class GeneralUtility {
 
-public class MeterReading {
     private GeneralUtilityType generalUtilityName;
-    private Long currentMeter;
-    private LocalDate meterDate;
+    private MeterFrequency meterType;
 
 }
