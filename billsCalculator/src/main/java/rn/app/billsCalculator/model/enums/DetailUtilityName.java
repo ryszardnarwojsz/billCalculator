@@ -1,8 +1,12 @@
 package rn.app.billsCalculator.model.enums;
 
 public enum DetailUtilityName {
-    ElectricityBasic,
-    ElectricityFloating,
-    GasBasic,
-    GasFloating
+    ELECTRICITY_BASIC,
+    ELECTRICITY_FLOATING,
+    GAS_BASIC,
+    GAS_FLOATING,
+    OTHER,
+    CENTRAL_HEATING,
+    GARBAGE,
+    ANTENNA,
 }
