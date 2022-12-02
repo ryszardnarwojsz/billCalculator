@@ -22,6 +22,15 @@ public class MeterReading {
     @NotBlank
     private GeneralUtility generalUtility;
 
+    @ManyToOne
+    @JoinColumn(name = "rented_apartment_id",nullable = false)
+    private RentedApartment rentedApartment;
+
+    @ManyToOne
+    @JoinColumn(name = "bill_line_id")
+    private BillLine billLine;
+
+
 
     public MeterReading() {
     }

@@ -6,6 +6,8 @@ import rn.app.billsCalculator.model.enums.DetailUtilityName;
 import rn.app.billsCalculator.model.enums.GeneralUtilityType;
 import rn.app.billsCalculator.model.enums.MeterFrequency;
 
+import java.util.List;
+
 @Entity
 @Table(name = "generalUtility")
 public class GeneralUtility {
@@ -20,11 +22,12 @@ public class GeneralUtility {
 
     @Enumerated(EnumType.STRING)
     @NotBlank
-    private GeneralUtilityType generalUtilityName;
+    private GeneralUtilityType generalUtilityType;
 
     @Enumerated(EnumType.STRING)
     @NotBlank
     private MeterFrequency meterType;
+
 
     public GeneralUtility() {
     }
